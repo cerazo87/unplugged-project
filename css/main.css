@@ -89,6 +89,12 @@ textarea {
 
 
 /* -------------------- Base Header - Footer Styles -------------------- */
+
+.content-wrapper {
+  width: 90%;
+  outline: 3px dotted red;
+}
+
 header {
   display: flex;
   justify-content: center;
@@ -141,6 +147,7 @@ aside {
 .features {
   display: flex;
   justify-content: center;
+  flex-flow: row wrap;
 }
 
 .features .features-items {
