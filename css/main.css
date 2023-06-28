@@ -371,33 +371,108 @@ aside {
 
 
 /* -------------------- Base Header - Footer Styles -------------------- */
+header {
+  padding: 15px 0;
+}
 
+header nav {
+  width: 60%;
+  padding: 20px 15px 0 0;
+}
 
-/**Footer**/
+header nav ul {
+  width: 100%;
+  margin: 0;
+}
 
+header .content-wrapper {
+  margin: 0;
+}
 
+footer .content-wrapper {
+    width: 55%;
+    margin: 50px 0;
+}
+
+footer .contact {
+  margin-bottom: 50px;
+}
+
+footer p{
+  margin: 0;
+}
+
+footer .copyright {
+  margin: 20px 0;
+}
 
 /*** Mobile Styles HOMEPAGE ***/
 
-/* Hero Area */
+.content-wrapper {
+  width: 90%;
+  margin: 50px 0;
+}
 
+.header-divider {
+  width: 100%;
+  padding: 10px 0 20px 0;
+}
 
+.form-description h3 {
+  padding: 20px 0;
+}
 
-/**Aside**/
+.form-description p {
+  padding: 30px 0;
+}
 
+.form {
+  padding: 1em 0;
+}
 
-/**Features**/
+.features article {
+  width: 60%;
+  padding: 30px 0;
+}
 
-/**Reviews**/
+.features h2 {
+  margin-bottom: 60px;
+}
 
+.features p {
+  margin: 0;
+}
 
-/**About Page**/
+.reviews h2 {
+  margin-bottom: 40px;
+}
 
+.reviews h3 {
+  width: 50%;
+  margin: 20px 0;
+}
 
-/**Contact Section**/
+.heroe-area {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 
+.contact-content p {
+  margin: 0;
+}
 
-/**FAQ Page**/
+.faq .content-wrapper {
+  margin: 50px 0 0 0;
+}
+
+.faq h2 {
+  margin-bottom: 40px;
+}
+
+.faq-content {
+  margin-bottom: 50px;
+}
+
 
 
 /* ==========================================================================
