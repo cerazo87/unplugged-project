@@ -88,12 +88,17 @@ textarea {
    ========================================================================== */
 html {
   font-size: 1rem;
+  color: #e2e3ed;
 }
 
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
   text-align: left;
+}
+
+header, footer {
+  background: #202322
 }
 
 header nav {
@@ -116,6 +121,7 @@ h1 {
   font-size: 2.25em;
   font-weight: 500;
   line-height: 2.688em;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
 }
 
 h3,
@@ -123,6 +129,7 @@ h4 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.125em;
   font-weight: 500;
+  margin: 20px 0;
 }
 
 a {
@@ -132,7 +139,7 @@ a {
 
 p {
   font-size: 0.875em;
-  line-height: 1.125em;
+  line-height: 1.285em;
 }
 
 aside input {
@@ -146,6 +153,37 @@ aside input {
 
 .address {
   font-style: normal;
+}
+
+aside .form {
+  margin-top: 30px;
+}
+
+input[type=text] {
+  box-sizing: border-box;
+  width: 100%;
+  color: #2a423a;
+  font-style: italic;
+  padding: 1em;
+  font-family: 'Poppins', sans-serif;
+}
+
+input[type=button] {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #2a423a;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+ {
+  background-color: #2a423a;
 }
 
 
@@ -737,6 +775,41 @@ footer .copyright {
   width: 100%;
 }
 
+/*Custom Styles*/
+h1 {
+  font-size: 3em;
+  line-height: 3em;
+  font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+  font-size: 2.25em;
+  line-height: 3em;
+  font-family: 'Poppins', sans-serif;
+}
+
+h3 {
+  font-size: 1.5em;
+  line-height: 1.875;
+  font-family: 'Poppins', sans-serif;
+}
+
+footer .contact h4 {
+  font-size: 1.5em;
+}
+
+footer p {
+  line-height: 1.125em;
+}
+
+.faq h4 {
+  font-size: 0.875em;
+}
+
+.faq p {
+  line-height: 0.984em;
+}
+
 }
 
 @media only screen and (min-width: 1200px) {
@@ -798,6 +871,32 @@ footer .copyright {
     width: 100%;
   }
 
+/*Custom Styles*/
+h1 {
+  font-size: 3.75em;
+  font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+  font-size: 2.25em;
+  font-family: 'Poppins', sans-serif;
+}
+
+h3 h4 {
+  font-size: 1.875em;
+  font-family: 'Poppins', sans-serif;
+}
+
+.faq h4 p {
+  font-size: 1.125em;
+  line-height: 1.125em;
+}
+
+p {
+  font-size: 1.125em;
+  line-height: 1.5em;
+
+}
 }
 
 
