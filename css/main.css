@@ -254,10 +254,6 @@ header nav ul li {
   padding-left: 55px;
 }
 
-nav ul li {
-  align-items: flex-end;
-}
-
 .header-divider {
   width: 100%;
   padding: 10px 0 20px 0;
@@ -364,6 +360,11 @@ aside .form {
   justify-content: center;
   align-items: flex-start;
   flex-flow: row wrap;
+}
+
+.features i {
+	font-size: 3.75em;
+    margin-bottom: 40px;
 }
 
 .features article {
